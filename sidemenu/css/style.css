@@ -1,0 +1,54 @@
+.container{
+    height: 250px;
+    position: fixed;
+}
+.sidebutton{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+    border-radius: 0 35px 35px 0;
+    transition: 0.5s ;
+}
+.sidebutton:hover{
+    width: 250px;
+}
+.sidebutton:hover .daire{
+    transform: rotate(180deg);
+}
+.sidebutton:hover .icerik{
+    width: 190px;
+}
+.icerik{
+    transition: 0.5s;
+    color: aliceblue;
+    font-size: 16px;
+    width: 140px;
+    text-align: center;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.daire{
+    background-color: aquamarine;
+    border-style: double;
+    transition: 0.6s ease-out;
+    position: relative;
+    left: -5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: inline-flex;
+    justify-content: center;
+}
+img{
+    margin-top: calc(50% - 20px);
+    height: 40px;
+}
